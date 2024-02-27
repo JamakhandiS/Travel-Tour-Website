@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .destination-card {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .destination-card img {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .destination-info p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .destination-info p.price {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Goa Destination -->
+        <div class="destination-card">
+            <img src="images/Goa.jpeg" alt="Goa">
+            <div class="destination-info">
+                <h2>Goa</h2>
+                <p>Travel Modes:</p>
+                <p class="price">Flights: $200</p>
+                <p class="price">Train: $100</p>
+                <p class="price">Bus: $80</p>
+                <p class="price">Hotel Price: $150 per night</p>
+                <p class="price">Total Cost: $700</p>
+            </div>
+        </div>
+
+        <!-- Ooty Destination -->
+        <div class="destination-card">
+            <img src="images/ooty.jpeg" alt="Ooty">
+            <div class="destination-info">
+                <h2>Ooty</h2>
+                <p>Travel Modes:</p>
+                <p class="price">Flights: $150</p>
+                <p class="price">Train: $80</p>
+                <p class="price">Bus: $60</p>
+                <p class="price">Hotel Price: $100 per night</p>
+                <p class="price">Total Cost: $500</p>
+            </div>
+        </div>
+
+        <!-- Mysore Destination -->
+        <div class="destination-card">
+            <img src="images/Mysore.jpeg" alt="Mysore">
+            <div class="destination-info">
+                <h2>Mysore</h2>
+                <p>Travel Modes:</p>
+                <p class="price">Flights: $180</p>
+                <p class="price">Train: $90</p>
+                <p class="price">Bus: $70</p>
+                <p class="price">Hotel Price: $80 per night</p>
+                <p class="price">Total Cost: $400</p>
+            </div>
+        </div>
+
+        <!-- Kerala Destination -->
+        <div class="destination-card">
+            <img src="images/ooty.jpeg" alt="Kerala">
+            <div class="destination-info">
+                <h2>Kerala</h2>
+                <p>Travel Modes:</p>
+                <p class="price">Flights: $220</p>
+                <p class="price">Train: $110</p>
+                <p class="price">Bus: $90</p>
+                <p class="price">Hotel Price: $120 per night</p>
+                <p class="price">Total Cost: $600</p>
+            </div>
+        </div>
+
+        <!-- Andaman Destination -->
+        <div class="destination-card">
+            <img src="images/Andaman.jpeg" alt="Andaman">
+            <div class="destination-info">
+                <h2>Andaman</h2>
+                <p>Travel Modes:</p>
+                <p class="price">Flights: $300</p>
+                <p class="price">Ship: $150</p>
+                <p class="price">Hotel Price: $200 per night</p>
+                <p class="price">Total Cost: $900</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
